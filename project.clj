@@ -19,7 +19,7 @@
                  [luminus-immutant "0.1.9"]
                  [luminus-log4j "0.1.3"]
                  [clj-http "2.1.0"]
-                 [clj-spotify-playlist-copier "0.1.0"]
+                 [clj-spotify-playlist-copier "0.1.1"]
                  [clj-spotify "0.1.2"]
                  [clj-time "0.11.0"]]
 
