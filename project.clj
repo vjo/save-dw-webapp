@@ -1,8 +1,6 @@
-(defproject dw-archivist-webapp "0.1.0"
-
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-
+(defproject save-dw-webapp "0.1.0"
+  :description "Save your Spotify's Discover Weekly playlist"
+  :url "https://github.com/vjo/save-dw-webapp"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [selmer "1.0.3"]
                  [ring-middleware-format "0.7.0"]
@@ -31,14 +29,14 @@
   :source-paths ["src/clj"]
   :resource-paths ["resources"]
 
-  :main dw-archivist-webapp.core
+  :main save-dw-webapp.core
 
   :plugins [[lein-cprop "1.0.1"]]
   :target-path "target/%s/"
   :profiles
   {:uberjar {:omit-source true
              :aot :all
-             :uberjar-name "dw-archivist-webapp.jar"
+             :uberjar-name "save-dw-webapp.jar"
              :source-paths ["env/prod/clj"]
              :resource-paths ["env/prod/resources"]}
    :dev           [:project/dev :profiles/dev]

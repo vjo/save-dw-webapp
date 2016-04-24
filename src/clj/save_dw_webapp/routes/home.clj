@@ -1,7 +1,7 @@
-(ns dw-archivist-webapp.routes.home
-  (:require [dw-archivist-webapp.layout :as layout]
-            [dw-archivist-webapp.oauth :as oauth]
-            [dw-archivist-webapp.utils :as utils]
+(ns save-dw-webapp.routes.home
+  (:require [save-dw-webapp.layout :as layout]
+            [save-dw-webapp.oauth :as oauth]
+            [save-dw-webapp.utils :as utils]
             [compojure.core :refer [defroutes GET]]
             [clj-spotify-playlist-copier.core :as sptfy-playlist-copier]
             [clj-spotify.core :as sptfy]))

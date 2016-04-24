@@ -1,11 +1,11 @@
-(ns dw-archivist-webapp.core
-  (:require [dw-archivist-webapp.handler :as handler]
+(ns save-dw-webapp.core
+  (:require [save-dw-webapp.handler :as handler]
             [luminus.repl-server :as repl]
             [luminus.http-server :as http]
-            [dw-archivist-webapp.config :refer [env]]
+            [save-dw-webapp.config :refer [env]]
             [clojure.tools.cli :refer [parse-opts]]
             [clojure.tools.logging :as log]
-            [dw-archivist-webapp.env :refer [defaults]]
+            [save-dw-webapp.env :refer [defaults]]
             [luminus.logger :as logger]
             [mount.core :as mount])
   (:gen-class))

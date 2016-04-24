@@ -1,9 +1,9 @@
-(ns dw-archivist-webapp.handler
+(ns save-dw-webapp.handler
   (:require [compojure.core :refer [routes wrap-routes]]
-            [dw-archivist-webapp.layout :refer [error-page]]
-            [dw-archivist-webapp.routes.home :refer [home-routes]]
+            [save-dw-webapp.layout :refer [error-page]]
+            [save-dw-webapp.routes.home :refer [home-routes]]
             [compojure.route :as route]
-            [dw-archivist-webapp.middleware :as middleware]))
+            [save-dw-webapp.middleware :as middleware]))
 
 (def app-routes
   (routes

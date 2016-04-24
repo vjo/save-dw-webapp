@@ -1,7 +1,7 @@
-(ns dw-archivist-webapp.test.handler
+(ns save-dw-webapp.test.handler
   (:require [clojure.test :refer :all]
             [ring.mock.request :refer :all]
-            [dw-archivist-webapp.handler :refer :all]))
+            [save-dw-webapp.handler :refer :all]))
 
 (deftest test-app
   (testing "main route"

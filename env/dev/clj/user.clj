@@ -1,15 +1,13 @@
 (ns user
   (:require [mount.core :as mount]
-            dw-archivist-webapp.core))
+            save-dw-webapp.core))
 
 (defn start []
-  (mount/start-without #'dw-archivist-webapp.core/repl-server))
+  (mount/start-without #'save-dw-webapp.core/repl-server))
 
 (defn stop []
-  (mount/stop-except #'dw-archivist-webapp.core/repl-server))
+  (mount/stop-except #'save-dw-webapp.core/repl-server))
 
 (defn restart []
   (stop)
   (start))
-
-

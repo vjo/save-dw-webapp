@@ -1,4 +1,4 @@
-(ns dw-archivist-webapp.oauth
+(ns save-dw-webapp.oauth
   (:require [clj-http.client :as client]
             [ring.util.codec :as codec]))
 

@@ -1,4 +1,4 @@
-(ns dw-archivist-webapp.layout
+(ns save-dw-webapp.layout
   (:require [selmer.parser :as parser]
             [selmer.filters :as filters]
             [ring.util.http-response :refer [content-type ok]]

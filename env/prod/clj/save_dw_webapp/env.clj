@@ -1,8 +1,8 @@
-(ns dw-archivist-webapp.env
+(ns save-dw-webapp.env
   (:require [clojure.tools.logging :as log]))
 
 (def defaults
   {:init
    (fn []
-     (log/info "\n-=[dw-archivist-webapp started successfully]=-"))
+     (log/info "\n-=[save-dw-webapp started successfully]=-"))
    :middleware identity})

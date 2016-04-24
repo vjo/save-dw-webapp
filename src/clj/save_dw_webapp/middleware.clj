@@ -1,8 +1,8 @@
-(ns dw-archivist-webapp.middleware
-  (:require [dw-archivist-webapp.layout :refer [*app-context* error-page]]
+(ns save-dw-webapp.middleware
+  (:require [save-dw-webapp.layout :refer [*app-context* error-page]]
             [clojure.tools.logging :as log]
-            [dw-archivist-webapp.env :refer [defaults]]
-            [dw-archivist-webapp.config :refer [env]]
+            [save-dw-webapp.env :refer [defaults]]
+            [save-dw-webapp.config :refer [env]]
             [ring.middleware.flash :refer [wrap-flash]]
             [immutant.web.middleware :refer [wrap-session]]
             [ring.middleware.webjars :refer [wrap-webjars]]
